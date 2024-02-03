@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form {
+            height: 600px;
+            width: 355px;
+            border: 2px solid black;
+            box-shadow: 2px 2px 5px 5px black;
+            border-radius: 10px;
+            margin-top: 150px;
+            margin-left: 550px;
+        }
+        input{
+            margin: 6px;
+            padding: 10px;
+            margin-left: 20px;
+            border-radius: 10px;
+        }
+       body{
+           background-color: rgb(240, 235, 235);
+           
+       }
+        .division{
+            margin: 10px;
+            align-items: center;
+            color: black;
+        }
+        .upper{
+            height: 200px;
+            background-color: aliceblue;
+        }
+        .upper img{
+            height: 300px;
+            width: 100%;
+            opacity: 0.8;
+        }
+        .btn{
+            height: 45px;
+    width: 116px;
+    border-radius: 13px;
+}
+.btn:hover{
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+}   
+
+    </style>
+</head>
+
+<body>
+    <div class="upper">
+        
+        <img src="https://cdn.pixabay.com/photo/2021/03/08/09/56/assessment-6078645__340.png" alt="">
+        
+    </div>
+    <div class="form">
+        <form action="">
+           <div class="division">Name: <input type="text" placeholder="enter your name"></div><br>
+           <div class="division">Email:<input type="email" placeholder="enter your email"></div><br>
+            <div class="division"> Number:<input type="number" placeholder="enter your phonre number"><br></div>
+                <div class="division">DateOfBirth:<input type="datetime-local"></div><br>
+                    <div class="division">RoomPreference: A1<input type="radio" id="one" name="check">
+            B1<input type="radio" id="two" name="check">
+            C1<input type="radio" id="three" name="check"></div><br>
+            <div class="division"> Gender: male<input type="radio" id="onee" name="check_">
+            female<input type="radio" id="twoe" name="check_">
+            others<input type="radio" id="threee" name="check_"></div><br>
+            <div class="division " > <input type="submit" class="btn">
+            <input type="reset" class="btn"></div>
+
+
+        </form>
+    </div>
+</body>
+
+</html>

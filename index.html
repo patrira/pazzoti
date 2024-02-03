@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+
+        /* NAVBAR */
+
+        .list {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .list a {
+            text-decoration: none;
+            list-style: none;
+            padding: 15px;
+            font-family:Georgia;
+            font-size: 20px;
+            color: aliceblue;
+         }
+         .list a li:hover{
+             text-decoration: underline;
+             color:gainsboro ;
+             cursor: pointer;
+            
+         }
+
+        /* PARALLAX EFFECT */
+     .parallax-1 {
+            background-image: url(hotel1.jpg);
+            min-height: 900px;
+           
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 0.9;
+        }
+        .parallax-2{
+            background-image:url(https://cdn.pixabay.com/photo/2018/02/24/17/17/window-3178666_1280.jpg) ;
+            min-height: 800px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 0.9;
+        
+
+        }
+        .parallax-3{
+            background-image: url("https://cdn.pixabay.com/photo/2019/06/13/17/08/round-window-4272049_960_720.jpg");
+            min-height: 500px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 0.9;
+
+        }
+
+        /* SECTION */
+        .hotel{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+        }
+        .h_one{padding-bottom: 70px;
+            padding-top:-1px;
+            color: azure;
+            font-family: 'Brush Script MT', cursive;
+            font-size: 70px;
+            text-shadow: 1px 1px 2px black, 0 0 25px palevioletred, 0 0 5px purple;
+        
+
+        }
+        .para{
+            color: white;
+            text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+            margin-top: 34px;
+            margin-left: 204px;
+            text-align: center;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            background-color: rgb(103, 106, 109);
+           height: 30px;
+           width: 150px;
+           border: 2px double grey;
+           border-radius: 10px;
+           padding: 5px;
+           margin-bottom: 60px;
+        }
+        .para:hover{
+            transform: scale(1.6);
+            transform-style: preserve-3d;
+            background-color: darkseagreen;
+            color: darkorange;
+        }
+        #img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 30%;
+            height: 100px;
+            width: 100px;
+            
+            border-radius: 50%;
+            border: 1px solid hsla(0,0%,100%,.5);
+           background: #fff;
+            background-clip: padding-box;
+            box-shadow: 1px 1px 5px 4px whitesmoke;
+        }
+       #img:hover{
+           transform: scale(1.2);
+
+       }
+
+       /* MIDDLE SECTION */
+    .one{
+    
+            height: 340px;
+            width: 340px;
+            border: 2px double  gainsboro;
+            border-radius: 30px;
+            /* display: inline-block; */
+            margin-top: 15px;
+            margin-left: 120px;
+            background-color:black;
+            box-shadow: 2px 2px 5px 5px white;
+            
+            
+       }
+       .one:hover{
+        transform:scale(1.1);
+        cursor: pointer;
+        
+       }
+       .heading{
+           text-align: center;
+           margin-top:0px;
+           padding-top: 100px;
+           font-size: 65px;
+           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-shadow: 4px 4px 7px black, 0 0 25px gray, 0 0 5px darkslategray;
+        color: aliceblue;
+        text-decoration: underline;
+       }
+
+      
+       .content{
+           display: flex;
+       }
+       .paragraph{
+           padding: 30px;
+           color: aliceblue;
+           font-size: 15px;
+           font-family: 'Festive', cursive;
+       }
+       .heading_in{
+           text-align: center;
+           font-size: 30px;
+           font-family: 'Times New Roman', Times, serif;
+           color: whitesmoke;
+       }
+
+       /* PARALLAX-3 SECTION */
+    .left{
+        height: 1000px;
+        width:800px;
+        background-color: black;
+    }
+    #p3{
+        color: whitesmoke;
+        font-size: 60px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        padding-top: 350px;
+        font-family: fantasy;
+    letter-spacing: 4px;
+    margin-top: 0px;
+    }
+    #bton{
+        background-color: black;
+        color: aliceblue;
+        border: 2px solid whitesmoke;
+        box-shadow: 2px 2px 5px 5px whitesmoke;
+        padding: 6px;
+        border-radius: 24px;
+    margin-left: 305px;
+    margin-top: 110px;
+    height: 69px;
+    width: 158px;
+    font-size: 24px;
+}
+#bton a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+#bton:hover{
+    cursor: pointer;
+    background-color: greenyellow;
+    color: cornsilk;
+}
+    
+
+       /* FOOTER */
+       footer{
+           background-color: black;
+           color: white;
+           height: 24px;
+           margin: 0px;
+           text-align: center;
+           font-size: 13px;
+           padding: 5px;
+           
+       }
+       #h4{
+           color: grey;
+           margin-top:51px;
+           text-align: center;
+           
+           font-size: 20px;
+       }
+    </style>
+</head>
+
+<body>
+    <div class="parallax-1">
+        <nav class="navbar">
+            <ul class="list">
+                <a href="">
+                    <li>Home</li>
+                </a>
+                <a href="">
+                    <li>Services</li>
+                </a>
+                <a href="">
+                    <li>ContactUs</li>
+                </a>
+                <a href="">
+                    <li>About us</li>
+                </a>
+
+            </ul>
+        </nav>
+        <section class="hotel">
+            <div class="intro">
+                <div id="image">
+                    
+                <img src="dishi.jpg" alt="error in loading" id="img"></div>
+               <div > <p class="para">GRAND HOTEL</p></div>
+                <h1 class="h_one">Make your <br>
+    
+                vacations comfortable....</h1></div>
+        </section>
+    </div>
+    
+    <!-- MIDDLE SECTION -->
+    <div class="parallax-2">
+        <div class="heading">
+       <h1 class="heading" >Our Services<h1> 
+    </div>      
+           <div class="content">                                                        
+       <div class="one">
+           <h3 class="heading_in">Room Services</h3>
+           <p class="paragraph">Welcome to our hotel.Here we are providing best quality rooms with well maintained furniture nd all. Basically there are three types of room in our hotel named A1 type, B1 type and C1 type.</p>
+       </div>
+       <div class="one">
+           <h3 class="heading_in">Food Services</h3>
+           <p class="paragraph">Here we are providing wide variety of food items ranging from fast food to full meal diet food.We have room services for food odering along with food cafetarea.</p>
+       </div>
+       <div class="one">
+           <h3 class="heading_in">Tour Services</h3>
+           <p class="paragraph">We have tour services available in our hotel.As out hotel is located in switzerland of india that's kashmir ,we provide tour services for our guests along with discounts and coupouns. </p>
+       </div>
+    </div>
+</div>     
+    <div class="parallax-3">
+        <div class="left">
+            <h1 id="p3">Book Rooms.....</h1>
+            <button id="bton"><a href="form section.html">register</a></button>
+            <h4 id="h4">For filling out the form
+                 click on above button</h4>
+
+        </div>
+        
+        </div>
+    
+       
+    <footer>
+        <p>@copyright GRAND_HOTEL_WEBSITE</p>
+    </footer>
+</body>
+
+</html>
